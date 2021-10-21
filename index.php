@@ -30,7 +30,7 @@
             <!-- The slideshow/carousel -->
             <div class="carousel-inner mt-1">
                 <div class="carousel-item active">
-                    <img src="images/1.jpg" alt="Los Angeles" class="d-block mx- auto img-fluid" >
+                    <img src="images/1.jpg" alt="Los Angeles" class="d-block mx- auto img-fluid">
                 </div>
                 <div class="carousel-item">
                     <img src="images/8.png" alt="Chicago" class="d-block mx- auto img-fluid">
@@ -49,11 +49,11 @@
             </button>
         </div>
     </div>
-    
+
     <!-- Slider End  -->
     <!-- About Start -->
     <section>
-        <div  data-aos="slide-right" class="mt-4 p-1 bg-primary text-white rounded">
+        <div data-aos="slide-right" class="mt-4 p-1 bg-primary text-white rounded">
             <h1 class="text-center">AboutUs</h1>
 
         </div>
@@ -72,20 +72,20 @@
     </section>
     <!-- About End -->
     <!-- Skills Start -->
-     <?php include 'skills.php' ?>
+    <?php include 'skills.php' ?>
     <!-- Services Start -->
     <section>
         <div data-aos="slide-right" class="mt-4 p-1 bg-primary text-white rounded">
             <h1 class="text-center">Services</h1>
-           </div>
-         <?php include 'card.php'  ?>
+        </div>
+        <?php include 'card.php'  ?>
     </section>
-     <!-- Services End -->
-     <!-- Contact Section Start -->
-     <div data-aos="flip-left" class="container bg-dark text-light my-3">
+    <!-- Services End -->
+    <!-- Contact Section Start -->
+    <div data-aos="flip-left" class="container bg-dark text-light my-3">
         <h1 class="text-center text-danger"><i class="fas fa-mobile mx-3"></i>Contact Us</h1>
         <form method="POST">
-            <label class="my-2 mx-1">First Name</label>&nbsp; 
+            <label class="my-2 mx-1">First Name</label>&nbsp;
             <span class="text-danger">*</span>
             <input type="text" name="firstName" class="form-control" value="" required />
             <label class="my-2 mx-1">Last Name</label>
@@ -108,10 +108,10 @@
                 Submit
             </button>
         </form>
-</div>
-     
-     <!-- Footer start -->
-     <?php include 'footer.php' ?>
+    </div>
+
+    <!-- Footer start -->
+    <?php include 'footer.php' ?>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

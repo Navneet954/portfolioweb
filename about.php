@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title></title>
 </head>
-<body>
-<?php  include 'Header.php' ?>
 
-<!-- About Start -->
-<section>
+<body>
+    <?php  include 'Header.php' ?>
+
+    <!-- About Start -->
+    <section>
         <div data-aos="slide-right" class="mt-4 p-1 bg-primary text-white rounded">
             <h1 class="text-center">AboutUs</h1>
 
@@ -35,9 +37,10 @@
     <script>
     AOS.init({
         durration: 6000,
-        offset:300,
-        
+        offset: 300,
+
     });
-    </script> 
-    </body>
+    </script>
+</body>
+
 </html>

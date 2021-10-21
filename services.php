@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title></title>
 </head>
-<body>
-<?php  include 'Header.php' ?>
 
-<section>
-        <div  data-aos="slide-up" class="mt-1 p-1 bg-primary text-white rounded">
+<body>
+    <?php  include 'Header.php' ?>
+
+    <section>
+        <div data-aos="slide-up" class="mt-1 p-1 bg-primary text-white rounded">
             <h1 class="text-center">Services</h1>
-          </div>
-            <?php include 'card.php' ?>
-           
+        </div>
+        <?php include 'card.php' ?>
+
         </div>
 
 
@@ -24,8 +26,9 @@
     <script>
     AOS.init({
         durration: 3000,
-        offset:300
+        offset: 300
     });
-    </script> 
+    </script>
 </body>
+
 </html>
