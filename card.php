@@ -31,7 +31,7 @@
               <div class="card-body">
                 <h5 class="card-title">PPT designing</h5>
                 <p class="card-text">
-                Microsoft PowerPoint is a presentation program, It was released on April 20, 1987, it is use to design Microsoft acquired PowerPoint for about $14 million three months after it appeared.
+                Microsoft PowerPoint is a presentation program, It was released on April 20, 1987, it is use to design Microsoft acquired PowerPoint Presentations.
                 </p>
               </div>
             </div>

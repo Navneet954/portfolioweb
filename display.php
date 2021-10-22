@@ -49,7 +49,7 @@
 					<td><?php echo $res['Mobile']; ?></td>
 					<td><?php echo $res['Address']; ?></td>
 					<td><?php echo $res['Message']; ?></td>
-					<td><i class="fas fa-edit bg-success"></i></td>
+					<td><i class="fas fa-edit"></i></td>
 					<td><i class="fas fa-trash"></i></td>
 
 					
@@ -59,5 +59,6 @@
 				?>
 			</tbody>
 		</table>
+		<?php include 'footer.php' ?>
 	</body>
 </html>

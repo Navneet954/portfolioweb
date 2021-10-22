@@ -17,13 +17,13 @@
     <?php include 'Header.php' ?>
     <div data-aos="flip-left" class="container bg-dark text-light my-3">
         <h1 class="text-center text-danger"><i class="fas fa-mobile mx-3"></i>Contact Us</h1>
-        <form method="POST">
+        <form method="POST" action="userinfo.php">
             <label class="my-2 mx-1">First Name</label>&nbsp; 
             <span class="text-danger">*</span>
-            <input type="text" name="firstName" class="form-control" value="" required />
+            <input type="text" name="firstname" class="form-control" value="" required />
             <label class="my-2 mx-1">Last Name</label>
             <span class="text-danger">*</span>
-            <input type="text" name="lastName" class="form-control" value="" required />
+            <input type="text" name="lastname" class="form-control" value="" required />
             <label class="my-2 mx-1">Email</label>
             <span class="text-danger">*</span>
             <input type="email" name="email" name="email" class="form-control" value="" required />
@@ -40,6 +40,12 @@
             <button type="submit" class="btn btn-primary my-3">
                 Submit
             </button>
+
+            <button type="button" class="btn btn-primary my-3 mx-1"><a class="text-white" href="display.php">
+                Display Data</a>
+            </button>
+
+
         </form>
 </div>     
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -139,4 +139,12 @@
       font-size: 2em;
   }
   
-  
+  .fa-edit{
+color: green;
+           }
+  .fa-delete{
+ color: red;
+
+
+ 
+             }
